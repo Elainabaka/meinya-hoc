@@ -1,0 +1,73 @@
+{
+  "mon": "ly",
+  "lop": 12,
+  "ten": "Vật lí 12",
+  "mo_ta": "Bước 1 chỉ có các khái niệm mà cụm Đạo hàm của môn Toán trỏ tới, gồm cả kiến thức nền lớp 10 (xem trường lop của từng nút).",
+  "cap_nhat": "2026-10-13",
+  "giay_phep": "CC BY-SA 4.0",
+  "nodes": [
+    {
+      "id": "van-toc-tuc-thoi",
+      "ten": "Vận tốc tức thời",
+      "chuong": "Lớp 10 · Động học",
+      "lop": 10,
+      "loai": "khai-niem",
+      "dinh_nghia": "Vận tốc tức thời là vận tốc trung bình tính trong một khoảng thời gian cực ngắn quanh một thời điểm; viết bằng toán, đó là đạo hàm của tọa độ theo thời gian.",
+      "vi_sao_2026": "Khi điện thoại hay đồng hồ thể thao báo \"tốc độ hiện tại\", đó là con số tức thời chứ không phải trung bình cả quãng; phân biệt hai loại giúp đọc đúng số liệu chuyển động.",
+      "vi_du": "x(t) = 5t² (mét): vận tốc trung bình từ 2 s đến 2,1 s là (22,05 − 20)/0,1 = 20,5 m/s; khoảng thời gian càng ngắn thì càng gần v(2) = x'(2) = 20 m/s.",
+      "cau_hoi": [
+        "Đồng hồ tốc độ của xe máy hiển thị vận tốc trung bình hay tức thời?",
+        "Đồ thị tọa độ – thời gian càng dốc thì vận tốc thế nào?"
+      ],
+      "nguon": [
+        {"ten": "SGK Vật lí 10 (Kết nối tri thức), Bài 5: Tốc độ và vận tốc", "can_kiem": true, "ghi_chu": "Tên bài đối chiếu qua trang tóm tắt bên thứ ba (vietjack.com, mở 13/10/2026); chưa mở sách để kiểm phần tốc độ, vận tốc tức thời."},
+        {"ten": "OpenStax, University Physics Volume 1, mục 3.2: Instantaneous Velocity and Speed", "url": "https://openstax.org/books/university-physics-volume-1/pages/3-2-instantaneous-velocity-and-speed", "doc": "2026-10-13"}
+      ],
+      "x": 0.06,
+      "y": 0.68
+    },
+    {
+      "id": "gia-toc-tuc-thoi",
+      "ten": "Gia tốc tức thời",
+      "chuong": "Lớp 10 · Động học",
+      "lop": 10,
+      "loai": "khai-niem",
+      "dinh_nghia": "Gia tốc cho biết vận tốc thay đổi nhanh hay chậm; gia tốc tức thời là đạo hàm của vận tốc theo thời gian, tức đạo hàm cấp hai của tọa độ.",
+      "vi_sao_2026": "Cảm biến gia tốc trong điện thoại và đồng hồ thông minh đo chính đại lượng này, ví dụ để đếm bước chân.",
+      "vi_du": "v(t) = 3t² (m/s): a(t) = v'(t) = 6t, nên lúc t = 2 s gia tốc là 12 m/s².",
+      "cau_hoi": [
+        "Vật đang chạy về phía trước mà gia tốc ngược chiều chuyển động thì nghĩa là gì?",
+        "Gia tốc bằng 0 có nghĩa là vật đứng yên không?"
+      ],
+      "nguon": [
+        {"ten": "SGK Vật lí 10 (Kết nối tri thức), Bài 8: Chuyển động biến đổi. Gia tốc", "ghi_chu": "Tên bài đối chiếu qua trang tóm tắt bên thứ ba (vietjack.com, mở 13/10/2026). SGK lớp 10 định nghĩa gia tốc qua Δv/Δt; dạng đạo hàm là phần nối sang Toán 11."},
+        {"ten": "OpenStax, University Physics Volume 1, mục 3.3: Average and Instantaneous Acceleration", "url": "https://openstax.org/books/university-physics-volume-1/pages/3-3-average-and-instantaneous-acceleration", "doc": "2026-10-13"}
+      ],
+      "x": 0.15,
+      "y": 0.97
+    },
+    {
+      "id": "suat-dien-dong-cam-ung",
+      "ten": "Suất điện động cảm ứng (định luật Faraday)",
+      "chuong": "Lớp 12 · Cảm ứng điện từ",
+      "lop": 12,
+      "loai": "khai-niem",
+      "dinh_nghia": "Khi từ thông qua một mạch kín biến thiên, trong mạch xuất hiện suất điện động cảm ứng có độ lớn bằng tốc độ biến thiên của từ thông: e = −ΔΦ/Δt, viết theo đạo hàm là e = −Φ'(t).",
+      "vi_sao_2026": "Máy phát điện, sạc không dây và bếp từ đều dựa trên từ thông biến thiên; đạo hàm cho biết suất điện động sinh ra lớn cỡ nào.",
+      "vi_du": "Từ thông Φ(t) = 0,02·sin(100πt) Wb thì e = −Φ'(t) = −2π·cos(100πt) V, biên độ khoảng 6,28 V.",
+      "cau_hoi": [
+        "Nam châm đứng yên trong cuộn dây có sinh ra dòng điện không? Vì sao?",
+        "Quay máy phát nhanh gấp đôi thì biên độ suất điện động thay đổi thế nào?"
+      ],
+      "nguon": [
+        {"ten": "SGK Vật lí 12 (Kết nối tri thức), Bài 16: Từ thông. Hiện tượng cảm ứng điện từ", "ghi_chu": "Tên bài và công thức e = −ΔΦ/Δt đối chiếu qua trang tóm tắt bên thứ ba (loigiaihay.com, mở 13/10/2026); chưa mở sách gốc."},
+        {"ten": "OpenStax, University Physics Volume 2, mục 13.1: Faraday's Law", "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law", "doc": "2026-10-13"}
+      ],
+      "x": 0.0,
+      "y": 0.99
+    }
+  ],
+  "edges": [
+    {"tu": "van-toc-tuc-thoi", "toi": "gia-toc-tuc-thoi", "loai": "dan-toi", "giai_thich": "Gia tốc đo vận tốc thay đổi nhanh hay chậm."}
+  ]
+}

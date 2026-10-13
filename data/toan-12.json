@@ -1,0 +1,333 @@
+{
+  "mon": "toan",
+  "lop": 12,
+  "ten": "Toán 12",
+  "mo_ta": "Cụm Đạo hàm: kiến thức nền lớp 11 (giới hạn, đạo hàm, quy tắc tính) dẫn tới chương Ứng dụng đạo hàm của lớp 12, và hai ứng dụng trong huấn luyện AI.",
+  "cap_nhat": "2026-10-13",
+  "giay_phep": "CC BY-SA 4.0",
+  "nodes": [
+    {
+      "id": "gioi-han",
+      "ten": "Giới hạn của hàm số",
+      "chuong": "Lớp 11 · Giới hạn. Hàm số liên tục",
+      "lop": 11,
+      "loai": "khai-niem",
+      "dinh_nghia": "Giới hạn của f(x) khi x dần tới a là số L mà f(x) tiến sát tới và ở lại gần khi x lại gần a, kể cả khi tại đúng x = a hàm số không xác định.",
+      "vi_sao_2026": "Mọi đại lượng \"tức thời\" (vận tốc tức thời, tốc độ phản ứng tức thời, độ dốc của hàm sai số khi huấn luyện AI) đều được định nghĩa bằng giới hạn; không có giới hạn thì không có đạo hàm.",
+      "vi_du": "f(x) = (x² − 1)/(x − 1) không xác định tại x = 1, nhưng với x ≠ 1 thì f(x) = x + 1, nên khi x dần tới 1 thì f(x) dần tới 2.",
+      "cau_hoi": [
+        "Vì sao f(x) vẫn có thể có giới hạn tại a dù f(a) không tồn tại?",
+        "Giới hạn bên trái và giới hạn bên phải khác nhau thì giới hạn tại điểm đó có tồn tại không?"
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 11 (Kết nối tri thức), Chương V, Bài 16: Giới hạn của hàm số", "can_kiem": true, "ghi_chu": "Tên và số bài chỉ thấy trong kết quả tìm kiếm (loigiaihay.com, hoatieu.vn), chưa mở trang hay sách gốc."},
+        {"ten": "OpenStax, Calculus Volume 1, mục 2.2: The Limit of a Function", "url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function", "doc": "2026-10-13"}
+      ],
+      "x": 0.03,
+      "y": 0.22
+    },
+    {
+      "id": "dao-ham",
+      "ten": "Đạo hàm tại một điểm",
+      "chuong": "Lớp 11 · Đạo hàm",
+      "lop": 11,
+      "loai": "khai-niem",
+      "dinh_nghia": "Đạo hàm f'(x₀) là giới hạn của tỉ số [f(x₀ + h) − f(x₀)] / h khi h dần tới 0: nó đo hàm số thay đổi nhanh thế nào ngay tại x₀.",
+      "vi_sao_2026": "Đạo hàm là phép tính lõi khi huấn luyện AI: máy tính đạo hàm của sai số theo từng tham số để biết nên chỉnh tham số theo hướng nào (xem Hạ gradient).",
+      "vi_du": "Với f(x) = x², tỉ số [(x₀ + h)² − x₀²] / h = 2x₀ + h, dần tới 2x₀ khi h dần tới 0; vậy f'(3) = 6.",
+      "cau_hoi": [
+        "Đạo hàm tại một điểm khác tốc độ thay đổi trung bình trên một khoảng ở chỗ nào?",
+        "Nếu f'(x₀) = 0 thì đồ thị tại x₀ trông thế nào?"
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 11 (Kết nối tri thức), Chương IX, Bài 31: Định nghĩa và ý nghĩa của đạo hàm", "ghi_chu": "Tên bài đối chiếu qua mục lục bên thứ ba (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
+        {"ten": "OpenStax, Calculus Volume 1, mục 3.1: Defining the Derivative", "url": "https://openstax.org/books/calculus-volume-1/pages/3-1-defining-the-derivative", "doc": "2026-10-13"}
+      ],
+      "x": 0.2,
+      "y": 0.42
+    },
+    {
+      "id": "tiep-tuyen",
+      "ten": "Ý nghĩa hình học: tiếp tuyến",
+      "chuong": "Lớp 11 · Đạo hàm",
+      "lop": 11,
+      "loai": "khai-niem",
+      "dinh_nghia": "f'(x₀) là hệ số góc của tiếp tuyến với đồ thị tại điểm (x₀; f(x₀)); phương trình tiếp tuyến là y = f'(x₀)(x − x₀) + f(x₀).",
+      "vi_sao_2026": "Tiếp tuyến là cách xấp xỉ một đường cong bằng đường thẳng: phóng to đủ gần quanh một điểm thì đồ thị trông gần như thẳng. Ý tưởng này nằm sau phương pháp Newton giải gần đúng phương trình.",
+      "vi_du": "f(x) = x² tại x₀ = 1: f'(1) = 2, tiếp tuyến là y = 2(x − 1) + 1 = 2x − 1.",
+      "cau_hoi": [
+        "Tiếp tuyến nằm ngang thì đạo hàm tại điểm tiếp xúc bằng bao nhiêu?",
+        "Vì sao phóng to đồ thị quanh một điểm thì nó gần giống tiếp tuyến?"
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 11 (Kết nối tri thức), Chương IX, Bài 31: Định nghĩa và ý nghĩa của đạo hàm", "ghi_chu": "Tên bài đối chiếu qua mục lục bên thứ ba (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
+        {"ten": "OpenStax, Calculus Volume 1, mục 3.1: Defining the Derivative (phần Tangent Lines)", "url": "https://openstax.org/books/calculus-volume-1/pages/3-1-defining-the-derivative", "doc": "2026-10-13"},
+        {"ten": "MIT OpenCourseWare 18.01SC Single Variable Calculus (Unit 2: Applications of Differentiation, có phương pháp Newton)", "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/", "doc": "2026-10-13"}
+      ],
+      "x": 0.15,
+      "y": 0.02
+    },
+    {
+      "id": "quy-tac-dao-ham",
+      "ten": "Quy tắc tính đạo hàm",
+      "chuong": "Lớp 11 · Đạo hàm",
+      "lop": 11,
+      "loai": "khai-niem",
+      "dinh_nghia": "Các quy tắc giúp tính đạo hàm mà không phải lấy giới hạn mỗi lần: (xⁿ)' = n·xⁿ⁻¹, đạo hàm của tổng, hiệu, tích (u·v)' = u'v + uv' và thương.",
+      "vi_sao_2026": "Phần mềm huấn luyện AI tính đạo hàm tự động bằng cách ghép những quy tắc đơn giản này lại, từng phép tính một (xem Lan truyền ngược).",
+      "vi_du": "(x³ + 2x)' = 3x² + 2; (x·sin x)' = sin x + x·cos x.",
+      "cau_hoi": [
+        "Vì sao đạo hàm của một tích không bằng tích các đạo hàm?",
+        "Thử kiểm lại (x²)' = 2x bằng định nghĩa giới hạn."
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 11 (Kết nối tri thức), Chương IX, Bài 32: Các quy tắc tính đạo hàm", "ghi_chu": "Tên bài đối chiếu qua mục lục bên thứ ba (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
+        {"ten": "OpenStax, Calculus Volume 1, mục 3.3: Differentiation Rules", "url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules", "doc": "2026-10-13"}
+      ],
+      "x": 0.36,
+      "y": 0.22
+    },
+    {
+      "id": "dao-ham-ham-hop",
+      "ten": "Đạo hàm hàm hợp (quy tắc chuỗi)",
+      "chuong": "Lớp 11 · Đạo hàm",
+      "lop": 11,
+      "loai": "khai-niem",
+      "dinh_nghia": "Nếu y = f(u) và u = g(x) thì đạo hàm của y theo x bằng f'(u) nhân g'(x): tốc độ thay đổi của các khâu nối tiếp được nhân với nhau.",
+      "vi_sao_2026": "Mạng nơ-ron là rất nhiều hàm lồng vào nhau; lan truyền ngược chính là áp dụng quy tắc chuỗi lặp đi lặp lại để biết mỗi tham số ảnh hưởng tới sai số bao nhiêu.",
+      "vi_du": "y = (3x + 1)⁵: đặt u = 3x + 1 thì y' = 5u⁴ · 3 = 15(3x + 1)⁴.",
+      "cau_hoi": [
+        "Bánh răng A quay nhanh gấp 2 lần bánh B, B nhanh gấp 3 lần C: A nhanh gấp mấy lần C? Điều này giống quy tắc chuỗi ở đâu?",
+        "Tính đạo hàm của sin(x²)."
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 11 (Kết nối tri thức), Chương IX, Bài 32: Các quy tắc tính đạo hàm", "can_kiem": true, "ghi_chu": "Chưa mở sách để kiểm mục đạo hàm của hàm hợp nằm trong bài này."},
+        {"ten": "OpenStax, Calculus Volume 1, mục 3.6: The Chain Rule", "url": "https://openstax.org/books/calculus-volume-1/pages/3-6-the-chain-rule", "doc": "2026-10-13"}
+      ],
+      "x": 0.4,
+      "y": 0.0
+    },
+    {
+      "id": "dao-ham-cap-hai",
+      "ten": "Đạo hàm cấp hai",
+      "chuong": "Lớp 11 · Đạo hàm",
+      "lop": 11,
+      "loai": "khai-niem",
+      "dinh_nghia": "Đạo hàm cấp hai f''(x) là đạo hàm của f'(x): nó cho biết chính tốc độ thay đổi đang tăng lên hay giảm đi.",
+      "vi_sao_2026": "Trong vật lý, đạo hàm cấp hai của tọa độ là gia tốc; với số liệu kinh tế hay dữ liệu, nó cho biết đà tăng đang nhanh lên hay chậm lại.",
+      "vi_du": "s(t) = 5t² (mét): s'(t) = 10t là vận tốc, s''(t) = 10 m/s² là gia tốc, không đổi.",
+      "cau_hoi": [
+        "f''(x) > 0 trên một khoảng thì đồ thị cong lên hay cong xuống?",
+        "Xe chạy với vận tốc không đổi thì đạo hàm cấp hai của quãng đường bằng bao nhiêu?"
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 11 (Kết nối tri thức), Chương IX, Bài 33: Đạo hàm cấp hai", "ghi_chu": "Tên bài đối chiếu qua mục lục bên thứ ba (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
+        {"ten": "OpenStax, Calculus Volume 1, mục 3.2: The Derivative as a Function (phần Higher-Order Derivatives)", "url": "https://openstax.org/books/calculus-volume-1/pages/3-2-the-derivative-as-a-function", "doc": "2026-10-13"}
+      ],
+      "x": 0.36,
+      "y": 0.56
+    },
+    {
+      "id": "toc-do-thay-doi",
+      "ten": "Tốc độ thay đổi tức thời",
+      "chuong": "Lớp 12 · Ứng dụng đạo hàm",
+      "lop": 12,
+      "loai": "khai-niem",
+      "dinh_nghia": "Nếu đại lượng Q phụ thuộc thời gian t thì Q'(t) là tốc độ Q thay đổi ngay tại thời điểm t, có đơn vị là (đơn vị của Q)/(đơn vị thời gian).",
+      "vi_sao_2026": "Cùng một phép tính dùng cho vận tốc xe, tốc độ phản ứng hóa học, tốc độ tăng dân số hay chi phí biên trong kinh tế: học một lần, dùng ở nhiều môn.",
+      "vi_du": "Lượng nước trong bể V(t) = 200 + 15t − t² (lít, t tính bằng phút): V'(t) = 15 − 2t, nên ở phút thứ 5 nước tăng 5 lít/phút; sau phút 7,5 lượng nước bắt đầu giảm.",
+      "cau_hoi": [
+        "Đạo hàm của quãng đường (mét) theo thời gian (giây) có đơn vị gì?",
+        "Tốc độ trung bình trong một giờ và tốc độ đúng lúc 10 giờ sáng khác nhau thế nào?"
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 12 (Kết nối tri thức), tập 1, Bài 5: Ứng dụng đạo hàm để giải quyết một số vấn đề liên quan đến thực tiễn", "can_kiem": true, "ghi_chu": "Tên bài đối chiếu qua bảng phân phối chương trình (hoatieu.vn, mở 13/10/2026); chưa mở sách để kiểm bài có phần tốc độ thay đổi."},
+        {"ten": "OpenStax, Calculus Volume 1, mục 3.4: Derivatives as Rates of Change", "url": "https://openstax.org/books/calculus-volume-1/pages/3-4-derivatives-as-rates-of-change", "doc": "2026-10-13"}
+      ],
+      "x": 0.3,
+      "y": 0.8
+    },
+    {
+      "id": "don-dieu",
+      "ten": "Tính đơn điệu",
+      "chuong": "Lớp 12 · Ứng dụng đạo hàm",
+      "lop": 12,
+      "loai": "khai-niem",
+      "dinh_nghia": "Trên một khoảng, nếu f'(x) > 0 thì hàm số đồng biến (đồ thị đi lên), nếu f'(x) < 0 thì hàm số nghịch biến (đồ thị đi xuống).",
+      "vi_sao_2026": "Đọc dấu của đạo hàm là cách nhanh nhất để biết một đại lượng đang tăng hay giảm, từ doanh thu, nhiệt độ tới sai số của mô hình khi huấn luyện.",
+      "vi_du": "f(x) = x³ − 3x có f'(x) = 3x² − 3: âm trên (−1; 1) nên hàm nghịch biến ở đó, dương khi x < −1 hoặc x > 1 nên hàm đồng biến.",
+      "cau_hoi": [
+        "f'(x) = 0 tại một điểm có làm hàm hết đồng biến không? Thử với f(x) = x³.",
+        "Lập bảng biến thiên của f(x) = x² − 4x."
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 12 (Kết nối tri thức), tập 1, Bài 1: Tính đơn điệu và cực trị của hàm số", "ghi_chu": "Tên bài đối chiếu qua bảng phân phối chương trình (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
+        {"ten": "OpenStax, Calculus Volume 1, mục 4.5: Derivatives and the Shape of a Graph", "url": "https://openstax.org/books/calculus-volume-1/pages/4-5-derivatives-and-the-shape-of-a-graph", "doc": "2026-10-13"}
+      ],
+      "x": 0.55,
+      "y": 0.32
+    },
+    {
+      "id": "tiem-can",
+      "ten": "Đường tiệm cận",
+      "chuong": "Lớp 12 · Ứng dụng đạo hàm",
+      "lop": 12,
+      "loai": "khai-niem",
+      "dinh_nghia": "Tiệm cận là đường thẳng mà đồ thị tiến sát mãi khi x hoặc y ra vô cực; tiệm cận đứng, ngang và xiên đều được tìm bằng giới hạn.",
+      "vi_sao_2026": "Tiệm cận cho biết về lâu dài một đại lượng tiến tới đâu, ví dụ chi phí trung bình cho mỗi sản phẩm khi sản xuất rất nhiều.",
+      "vi_du": "y = (2x + 1)/(x − 1): tiệm cận đứng x = 1 (mẫu bằng 0), tiệm cận ngang y = 2 (khi x → ±∞ thì y → 2).",
+      "cau_hoi": [
+        "Đồ thị có thể cắt tiệm cận ngang của chính nó không?",
+        "Tìm các đường tiệm cận của y = 1/x."
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 12 (Kết nối tri thức), tập 1, Bài 3: Đường tiệm cận của đồ thị hàm số", "ghi_chu": "Tên bài đối chiếu qua bảng phân phối chương trình (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
+        {"ten": "OpenStax, Calculus Volume 1, mục 4.6: Limits at Infinity and Asymptotes", "url": "https://openstax.org/books/calculus-volume-1/pages/4-6-limits-at-infinity-and-asymptotes", "doc": "2026-10-13"}
+      ],
+      "x": 0.6,
+      "y": 0.06
+    },
+    {
+      "id": "cuc-tri",
+      "ten": "Cực trị",
+      "chuong": "Lớp 12 · Ứng dụng đạo hàm",
+      "lop": 12,
+      "loai": "khai-niem",
+      "dinh_nghia": "Điểm cực đại (cực tiểu) là nơi hàm số lớn nhất (nhỏ nhất) so với các điểm lân cận; nếu hàm có đạo hàm tại đó thì f'(x) = 0, và f' đổi dấu khi x đi qua điểm ấy.",
+      "vi_sao_2026": "Tìm chỗ đạo hàm bằng 0 là ý tưởng gốc của mọi bài toán tối ưu; huấn luyện AI chính là đi tìm điểm cực tiểu của hàm sai số.",
+      "vi_du": "f(x) = x³ − 3x: f'(x) = 0 tại x = −1 (f' đổi dấu từ dương sang âm, cực đại f(−1) = 2) và tại x = 1 (từ âm sang dương, cực tiểu f(1) = −2).",
+      "cau_hoi": [
+        "f'(x₀) = 0 có chắc x₀ là điểm cực trị không? Xét f(x) = x³ tại x = 0.",
+        "Giá trị cực đại có luôn là giá trị lớn nhất của hàm số không?"
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 12 (Kết nối tri thức), tập 1, Bài 1: Tính đơn điệu và cực trị của hàm số", "ghi_chu": "Tên bài đối chiếu qua bảng phân phối chương trình (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
+        {"ten": "OpenStax, Calculus Volume 1, mục 4.3: Maxima and Minima", "url": "https://openstax.org/books/calculus-volume-1/pages/4-3-maxima-and-minima", "doc": "2026-10-13"}
+      ],
+      "x": 0.66,
+      "y": 0.5
+    },
+    {
+      "id": "khao-sat-do-thi",
+      "ten": "Khảo sát và vẽ đồ thị",
+      "chuong": "Lớp 12 · Ứng dụng đạo hàm",
+      "lop": 12,
+      "loai": "khai-niem",
+      "dinh_nghia": "Khảo sát hàm số là gom thông tin từ đạo hàm và giới hạn (tập xác định, chiều biến thiên, cực trị, tiệm cận) vào bảng biến thiên rồi vẽ đồ thị.",
+      "vi_sao_2026": "Nhìn một đồ thị và đọc ra xu hướng, đỉnh, đáy, giới hạn là kỹ năng cần cho mọi nghề làm việc với số liệu.",
+      "vi_du": "y = x³ − 3x: đồng biến trên (−∞; −1), nghịch biến trên (−1; 1), đồng biến trên (1; +∞); cực đại (−1; 2), cực tiểu (1; −2); đồ thị cắt trục hoành tại x = 0 và x = ±√3.",
+      "cau_hoi": [
+        "Bảng biến thiên cho biết những gì mà vài điểm tính tay không cho biết?",
+        "Đồ thị hàm bậc ba có luôn có hai điểm cực trị không?"
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 12 (Kết nối tri thức), tập 1, Bài 4: Khảo sát sự biến thiên và vẽ đồ thị của hàm số", "ghi_chu": "Tên bài đối chiếu qua bảng phân phối chương trình (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
+        {"ten": "OpenStax, Calculus Volume 1, mục 4.6: Limits at Infinity and Asymptotes (phần Drawing the Graph of a Function)", "url": "https://openstax.org/books/calculus-volume-1/pages/4-6-limits-at-infinity-and-asymptotes", "doc": "2026-10-13"}
+      ],
+      "x": 0.82,
+      "y": 0.16
+    },
+    {
+      "id": "gtln-gtnn",
+      "ten": "Giá trị lớn nhất, nhỏ nhất",
+      "chuong": "Lớp 12 · Ứng dụng đạo hàm",
+      "lop": 12,
+      "loai": "khai-niem",
+      "dinh_nghia": "Hàm số liên tục trên đoạn [a; b] luôn đạt giá trị lớn nhất và nhỏ nhất; chỉ cần so giá trị tại hai đầu mút với giá trị tại các điểm mà đạo hàm bằng 0 hoặc không tồn tại.",
+      "vi_sao_2026": "Đây là khuôn của mọi quyết định \"tốt nhất có thể\": chi phí thấp nhất, lợi nhuận cao nhất, sai số nhỏ nhất.",
+      "vi_du": "f(x) = x³ − 3x trên đoạn [0; 2]: f(0) = 0, f(1) = −2, f(2) = 2, nên giá trị lớn nhất là 2 (tại x = 2) và giá trị nhỏ nhất là −2 (tại x = 1).",
+      "cau_hoi": [
+        "Vì sao phải xét cả hai đầu mút của đoạn?",
+        "Trên khoảng mở (0; 2), hàm số ở ví dụ có giá trị lớn nhất không?"
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 12 (Kết nối tri thức), tập 1, Bài 2: Giá trị lớn nhất và giá trị nhỏ nhất của hàm số", "ghi_chu": "Tên bài đối chiếu qua bảng phân phối chương trình (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
+        {"ten": "OpenStax, Calculus Volume 1, mục 4.3: Maxima and Minima (phần Locating Absolute Extrema)", "url": "https://openstax.org/books/calculus-volume-1/pages/4-3-maxima-and-minima", "doc": "2026-10-13"}
+      ],
+      "x": 0.86,
+      "y": 0.4
+    },
+    {
+      "id": "toi-uu",
+      "ten": "Bài toán tối ưu thực tế",
+      "chuong": "Lớp 12 · Ứng dụng đạo hàm",
+      "lop": 12,
+      "loai": "khai-niem",
+      "dinh_nghia": "Đưa một tình huống thực tế về hàm số một biến, xác định miền giá trị hợp lý của biến, rồi dùng đạo hàm tìm giá trị lớn nhất hoặc nhỏ nhất.",
+      "vi_sao_2026": "Từ làm chiếc hộp tốn ít vật liệu nhất tới chọn giá bán cho doanh thu cao nhất: tối ưu là cách ra quyết định bằng toán, và cũng là mục tiêu khi huấn luyện mô hình AI.",
+      "vi_du": "Có 40 m lưới rào ba mặt của một vườn hình chữ nhật sát tường. Chiều rộng x (m) thì diện tích S = x(40 − 2x); S'(x) = 40 − 4x = 0 khi x = 10, nên vườn 10 m × 20 m có diện tích lớn nhất, 200 m².",
+      "cau_hoi": [
+        "Vì sao phải xác định miền giá trị hợp lý của x trước khi tìm cực trị?",
+        "Làm lại ví dụ khi có 60 m lưới."
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 12 (Kết nối tri thức), tập 1, Bài 5: Ứng dụng đạo hàm để giải quyết một số vấn đề liên quan đến thực tiễn", "ghi_chu": "Tên bài đối chiếu qua bảng phân phối chương trình (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
+        {"ten": "OpenStax, Calculus Volume 1, mục 4.7: Applied Optimization Problems", "url": "https://openstax.org/books/calculus-volume-1/pages/4-7-applied-optimization-problems", "doc": "2026-10-13"}
+      ],
+      "x": 0.97,
+      "y": 0.64
+    },
+    {
+      "id": "lan-truyen-nguoc",
+      "ten": "Lan truyền ngược (backpropagation)",
+      "chuong": "Ứng dụng 2026 · Huấn luyện AI",
+      "loai": "ung-dung",
+      "dinh_nghia": "Cách tính đạo hàm của sai số theo rất nhiều tham số của một mạng nơ-ron, bằng cách áp dụng quy tắc chuỗi lần lượt từ đầu ra ngược về đầu vào.",
+      "vi_sao_2026": "Lan truyền ngược cho máy đủ đạo hàm để huấn luyện các mạng nơ-ron lớn; nền toán của nó là quy tắc chuỗi lớp 11.",
+      "vi_du": "Với f = (x + y)·z, đặt q = x + y thì f = q·z. Đạo hàm của f theo q là z, của q theo x là 1, nên theo quy tắc chuỗi, đạo hàm của f theo x là z · 1 = z.",
+      "cau_hoi": [
+        "Vì sao tính ngược từ đầu ra một lượt lại đỡ tốn công hơn tính riêng cho từng tham số?",
+        "Với f = (x + y)·z và x = −2, y = 5, z = −4: tăng x một chút thì f tăng hay giảm?"
+      ],
+      "nguon": [
+        {"ten": "Stanford CS231n, ghi chú bài giảng về lan truyền ngược và quy tắc chuỗi (optimization-2)", "url": "https://cs231n.github.io/optimization-2/", "doc": "2026-10-13"}
+      ],
+      "x": 0.58,
+      "y": 0.86
+    },
+    {
+      "id": "gradient-descent",
+      "ten": "Hạ gradient (gradient descent)",
+      "chuong": "Ứng dụng 2026 · Huấn luyện AI",
+      "loai": "ung-dung",
+      "dinh_nghia": "Thuật toán tìm cực tiểu của hàm sai số: tính đạo hàm (độ dốc) tại vị trí hiện tại, nhích các tham số một bước nhỏ ngược hướng dốc, rồi lặp lại nhiều lần.",
+      "vi_sao_2026": "Mạng nơ-ron, nền của các mô hình AI hiện nay, được huấn luyện bằng hạ gradient hoặc biến thể của nó như Adam (Kingma và Ba, 2014): đạo hàm lớp 11–12 là nền móng trực tiếp.",
+      "vi_du": "Tìm cực tiểu của f(w) = (w − 3)², xuất phát từ w = 0, bước 0,1: f'(w) = 2(w − 3). Bước 1: w = 0 − 0,1·(−6) = 0,6. Bước 2: w = 0,6 − 0,1·(−4,8) = 1,08. Cứ thế w tiến dần về 3.",
+      "cau_hoi": [
+        "Bước nhảy (tốc độ học) quá lớn thì chuyện gì có thể xảy ra?",
+        "Hạ gradient có chắc tìm được giá trị nhỏ nhất trên cả miền không, hay chỉ tới cực tiểu gần nhất?"
+      ],
+      "nguon": [
+        {"ten": "Google Machine Learning Crash Course: Linear regression: Gradient descent", "url": "https://developers.google.com/machine-learning/crash-course/linear-regression/gradient-descent", "doc": "2026-10-13"},
+        {"ten": "Stanford CS231n, ghi chú bài giảng về tối ưu và hạ gradient (optimization-1)", "url": "https://cs231n.github.io/optimization-1/", "doc": "2026-10-13"},
+        {"ten": "Kingma, D. P. và Ba, J. (2014). Adam: A Method for Stochastic Optimization. arXiv:1412.6980", "url": "https://arxiv.org/abs/1412.6980", "doc": "2026-10-13"}
+      ],
+      "x": 0.8,
+      "y": 0.86
+    }
+  ],
+  "edges": [
+    {"tu": "gioi-han", "toi": "dao-ham", "loai": "can-truoc"},
+    {"tu": "gioi-han", "toi": "tiem-can", "loai": "can-truoc"},
+    {"tu": "dao-ham", "toi": "tiep-tuyen", "loai": "dan-toi"},
+    {"tu": "dao-ham", "toi": "quy-tac-dao-ham", "loai": "dan-toi"},
+    {"tu": "quy-tac-dao-ham", "toi": "dao-ham-ham-hop", "loai": "dan-toi"},
+    {"tu": "dao-ham", "toi": "dao-ham-cap-hai", "loai": "dan-toi"},
+    {"tu": "dao-ham", "toi": "toc-do-thay-doi", "loai": "dan-toi"},
+    {"tu": "quy-tac-dao-ham", "toi": "don-dieu", "loai": "can-truoc"},
+    {"tu": "don-dieu", "toi": "cuc-tri", "loai": "dan-toi"},
+    {"tu": "dao-ham-cap-hai", "toi": "cuc-tri", "loai": "dan-toi", "giai_thich": "Dấu của f'' tại điểm có f' = 0 cho biết đó là cực đại (f'' < 0) hay cực tiểu (f'' > 0)."},
+    {"tu": "cuc-tri", "toi": "gtln-gtnn", "loai": "dan-toi"},
+    {"tu": "don-dieu", "toi": "khao-sat-do-thi", "loai": "can-truoc"},
+    {"tu": "cuc-tri", "toi": "khao-sat-do-thi", "loai": "can-truoc"},
+    {"tu": "tiem-can", "toi": "khao-sat-do-thi", "loai": "can-truoc"},
+    {"tu": "gtln-gtnn", "toi": "toi-uu", "loai": "dan-toi"},
+    {"tu": "dao-ham-ham-hop", "toi": "lan-truyen-nguoc", "loai": "dan-toi", "giai_thich": "Lan truyền ngược là quy tắc chuỗi áp dụng lặp lại qua từng lớp của mạng nơ-ron."},
+    {"tu": "lan-truyen-nguoc", "toi": "gradient-descent", "loai": "dan-toi", "giai_thich": "Lan truyền ngược tính ra đạo hàm; hạ gradient dùng đạo hàm đó để chỉnh tham số."},
+    {"tu": "toi-uu", "toi": "gradient-descent", "loai": "dan-toi", "giai_thich": "Khi hàm có quá nhiều biến để giải f' = 0 bằng tay, máy tìm cực tiểu bằng cách đi từng bước xuống dốc."},
+    {"tu": "dao-ham", "toi": "ly:van-toc-tuc-thoi", "loai": "lien-mon", "giai_thich": "Vận tốc tức thời là đạo hàm của tọa độ theo thời gian: v(t) = x'(t)."},
+    {"tu": "dao-ham-cap-hai", "toi": "ly:gia-toc-tuc-thoi", "loai": "lien-mon", "giai_thich": "Gia tốc là đạo hàm của vận tốc, tức đạo hàm cấp hai của tọa độ: a(t) = v'(t) = x''(t)."},
+    {"tu": "toc-do-thay-doi", "toi": "hoa:toc-do-phan-ung-tuc-thoi", "loai": "lien-mon", "giai_thich": "Tốc độ phản ứng tức thời là tốc độ thay đổi nồng độ theo thời gian, đọc bằng hệ số góc tiếp tuyến của đồ thị nồng độ – thời gian."},
+    {"tu": "toc-do-thay-doi", "toi": "ly:suat-dien-dong-cam-ung", "loai": "lien-mon", "giai_thich": "Suất điện động cảm ứng bằng trừ tốc độ biến thiên của từ thông: e = −Φ'(t)."}
+  ]
+}

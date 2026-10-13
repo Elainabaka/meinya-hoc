@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://elainabaka.com/hoc/data/schema.json",
+  "title": "Một môn học trong sơ đồ khái niệm meinya-hoc",
+  "description": "Mỗi file data/<mon>-<lop>.json là một môn: các nút (khái niệm) và các cạnh nối chúng. Cạnh liên môn trỏ sang file môn khác bằng dạng mon:id.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["mon", "lop", "ten", "cap_nhat", "giay_phep", "nodes", "edges"],
+  "properties": {
+    "mon": {"$ref": "#/$defs/mon"},
+    "lop": {"type": "integer", "minimum": 10, "maximum": 12},
+    "ten": {"type": "string", "minLength": 2, "maxLength": 60},
+    "mo_ta": {"type": "string", "maxLength": 400},
+    "cap_nhat": {"$ref": "#/$defs/ngay"},
+    "giay_phep": {"const": "CC BY-SA 4.0"},
+    "nodes": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/node"}},
+    "edges": {"type": "array", "items": {"$ref": "#/$defs/edge"}}
+  },
+  "$defs": {
+    "mon": {"enum": ["toan", "ly", "hoa", "van"]},
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 60},
+    "ngay": {"type": "string", "pattern": "^20[0-9]{2}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$"},
+    "chu": {"type": "string", "minLength": 3, "maxLength": 600},
+    "node": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "ten", "chuong", "dinh_nghia", "vi_sao_2026", "vi_du", "cau_hoi", "nguon", "x", "y"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "ten": {"type": "string", "minLength": 2, "maxLength": 80},
+        "chuong": {"type": "string", "minLength": 2, "maxLength": 120},
+        "lop": {"type": "integer", "minimum": 10, "maximum": 12},
+        "loai": {"enum": ["khai-niem", "ung-dung"]},
+        "dinh_nghia": {"$ref": "#/$defs/chu"},
+        "vi_sao_2026": {"$ref": "#/$defs/chu"},
+        "vi_du": {"$ref": "#/$defs/chu"},
+        "cau_hoi": {"type": "array", "minItems": 1, "maxItems": 5, "items": {"$ref": "#/$defs/chu"}},
+        "nguon": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/nguon"}},
+        "x": {"type": "number", "minimum": 0, "maximum": 1},
+        "y": {"type": "number", "minimum": 0, "maximum": 1},
+        "can_kiem": {"type": "boolean"}
+      }
+    },
+    "nguon": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ten"],
+      "properties": {
+        "ten": {"type": "string", "minLength": 3, "maxLength": 200},
+        "url": {"type": "string", "pattern": "^https://[!#-;=?-~]+$", "maxLength": 300},
+        "doc": {"$ref": "#/$defs/ngay"},
+        "can_kiem": {"type": "boolean"},
+        "ghi_chu": {"type": "string", "maxLength": 300}
+      }
+    },
+    "edge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tu", "toi", "loai"],
+      "properties": {
+        "tu": {"$ref": "#/$defs/id"},
+        "toi": {"type": "string", "pattern": "^((toan|ly|hoa|van):)?[a-z0-9]+(-[a-z0-9]+)*$"},
+        "loai": {"enum": ["can-truoc", "dan-toi", "lien-mon"]},
+        "giai_thich": {"$ref": "#/$defs/chu"}
+      }
+    }
+  }
+}

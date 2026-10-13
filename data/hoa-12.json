@@ -1,0 +1,31 @@
+{
+  "mon": "hoa",
+  "lop": 12,
+  "ten": "Hóa học 12",
+  "mo_ta": "Bước 1 chỉ có khái niệm mà cụm Đạo hàm của môn Toán trỏ tới; tốc độ phản ứng thuộc chương trình lớp 10 (trường lop).",
+  "cap_nhat": "2026-10-13",
+  "giay_phep": "CC BY-SA 4.0",
+  "nodes": [
+    {
+      "id": "toc-do-phan-ung-tuc-thoi",
+      "ten": "Tốc độ phản ứng tức thời",
+      "chuong": "Lớp 10 · Tốc độ phản ứng",
+      "lop": 10,
+      "loai": "khai-niem",
+      "dinh_nghia": "Tốc độ phản ứng cho biết nồng độ chất phản ứng hoặc sản phẩm thay đổi nhanh thế nào; tốc độ tức thời là độ biến thiên nồng độ trong một khoảng thời gian vô cùng ngắn, bằng hệ số góc tiếp tuyến của đồ thị nồng độ – thời gian.",
+      "vi_sao_2026": "Điều khiển tốc độ phản ứng là việc hằng ngày của công nghiệp hóa chất và dược phẩm; tốc độ tức thời cho biết phản ứng chậm lại ra sao theo thời gian.",
+      "vi_du": "Nồng độ chất A giảm từ 1,00 M xuống 0,80 M trong 20 s đầu: tốc độ trung bình là 0,01 M/s. Tốc độ tức thời tại một thời điểm đọc từ độ dốc tiếp tuyến của đường cong nồng độ A theo thời gian.",
+      "cau_hoi": [
+        "Vì sao tốc độ phản ứng thường giảm dần theo thời gian?",
+        "Trên đồ thị nồng độ – thời gian, chỗ đường cong dốc hơn nghĩa là gì?"
+      ],
+      "nguon": [
+        {"ten": "SGK Hóa học 10 (Kết nối tri thức), Chương 6, Bài 19: Tốc độ phản ứng", "ghi_chu": "Tên bài, chương và khái niệm tốc độ tức thời đối chiếu qua trang tóm tắt bên thứ ba (vietjack.com, mở 13/10/2026); chưa mở sách gốc."},
+        {"ten": "OpenStax, Chemistry 2e, mục 12.1: Chemical Reaction Rates", "url": "https://openstax.org/books/chemistry-2e/pages/12-1-chemical-reaction-rates", "doc": "2026-10-13"}
+      ],
+      "x": 0.4,
+      "y": 1.0
+    }
+  ],
+  "edges": []
+}
