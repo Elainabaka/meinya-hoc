@@ -20,7 +20,7 @@
         "Giới hạn bên trái và giới hạn bên phải khác nhau thì giới hạn tại điểm đó có tồn tại không?"
       ],
       "nguon": [
-        {"ten": "SGK Toán 11 (Kết nối tri thức), Chương V, Bài 16: Giới hạn của hàm số", "can_kiem": true, "ghi_chu": "Tên và số bài chỉ thấy trong kết quả tìm kiếm (loigiaihay.com, hoatieu.vn), chưa mở trang hay sách gốc."},
+        {"ten": "SGK Toán 11 (Kết nối tri thức), Chương V, Bài 16: Giới hạn của hàm số", "ghi_chu": "Đề mục \"1. Giới hạn hữu hạn của hàm số tại một điểm\" dưới Bài 16, Chương 5: đối chiếu loigiaihay.com và vietjack.com (mở 14/10/2026); chưa mở sách giấy."},
         {"ten": "OpenStax, Calculus Volume 1, mục 2.2: The Limit of a Function", "url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function", "doc": "2026-10-13"}
       ],
       "x": 0.03,
@@ -101,7 +101,7 @@
         "Tính đạo hàm của sin(x²)."
       ],
       "nguon": [
-        {"ten": "SGK Toán 11 (Kết nối tri thức), Chương IX, Bài 32: Các quy tắc tính đạo hàm", "can_kiem": true, "ghi_chu": "Chưa mở sách để kiểm mục đạo hàm của hàm hợp nằm trong bài này."},
+        {"ten": "SGK Toán 11 (Kết nối tri thức), Chương IX, Bài 32: Các quy tắc tính đạo hàm", "ghi_chu": "Mục \"3. Đạo hàm của hàm số hợp\" (HĐ4 trang 90, tập 2) theo vietjack.com; loigiaihay.com tóm tắt là \"2. Đạo hàm của hàm hợp\", y'x = y'u.u'x (mở 14/10/2026); chưa mở sách giấy."},
         {"ten": "OpenStax, Calculus Volume 1, mục 3.6: The Chain Rule", "url": "https://openstax.org/books/calculus-volume-1/pages/3-6-the-chain-rule", "doc": "2026-10-13"}
       ],
       "x": 0.4,
@@ -141,7 +141,7 @@
         "Tốc độ trung bình trong một giờ và tốc độ đúng lúc 10 giờ sáng khác nhau thế nào?"
       ],
       "nguon": [
-        {"ten": "SGK Toán 12 (Kết nối tri thức), tập 1, Bài 5: Ứng dụng đạo hàm để giải quyết một số vấn đề liên quan đến thực tiễn", "can_kiem": true, "ghi_chu": "Tên bài đối chiếu qua bảng phân phối chương trình (hoatieu.vn, mở 13/10/2026); chưa mở sách để kiểm bài có phần tốc độ thay đổi."},
+        {"ten": "SGK Toán 12 (Kết nối tri thức), tập 1, Bài 5: Ứng dụng đạo hàm để giải quyết một số vấn đề liên quan đến thực tiễn", "ghi_chu": "Mục \"1. Tốc độ thay đổi của một đại lượng\" (vận tốc tức thời v = s'(t), gia tốc a = v'(t)) theo loigiaihay.com (mở 14/10/2026); chưa mở sách giấy."},
         {"ten": "OpenStax, Calculus Volume 1, mục 3.4: Derivatives as Rates of Change", "url": "https://openstax.org/books/calculus-volume-1/pages/3-4-derivatives-as-rates-of-change", "doc": "2026-10-13"}
       ],
       "x": 0.3,
