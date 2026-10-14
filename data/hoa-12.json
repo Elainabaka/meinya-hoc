@@ -3,7 +3,7 @@
   "lop": 12,
   "ten": "Hóa học 12",
   "mo_ta": "Bước 1 chỉ có khái niệm mà cụm Đạo hàm của môn Toán trỏ tới; tốc độ phản ứng thuộc chương trình lớp 10 (trường lop).",
-  "cap_nhat": "2026-10-13",
+  "cap_nhat": "2026-10-14",
   "giay_phep": "CC BY-SA 4.0",
   "nodes": [
     {
@@ -23,8 +23,8 @@
         {"ten": "SGK Hóa học 10 (Kết nối tri thức), Chương 6, Bài 19: Tốc độ phản ứng", "ghi_chu": "Tên bài, chương và khái niệm tốc độ tức thời đối chiếu qua trang tóm tắt bên thứ ba (vietjack.com, mở 13/10/2026); chưa mở sách gốc."},
         {"ten": "OpenStax, Chemistry 2e, mục 12.1: Chemical Reaction Rates", "url": "https://openstax.org/books/chemistry-2e/pages/12-1-chemical-reaction-rates", "doc": "2026-10-13"}
       ],
-      "x": 0.4,
-      "y": 1.0
+      "x": 0.244,
+      "y": 0.6
     }
   ],
   "edges": []

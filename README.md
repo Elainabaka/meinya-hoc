@@ -13,8 +13,8 @@ every concept cites at least one source you can open.*
 | Đường dẫn | Là gì |
 |---|---|
 | `data/schema.json` | Cấu trúc một file môn (JSON Schema draft 2020-12) |
-| `data/toan-12.json` | Toán: cụm Đạo hàm, 15 khái niệm (gồm kiến thức nền lớp 11 và hai ứng dụng trong huấn luyện AI) |
-| `data/ly-12.json`, `data/hoa-12.json` | Vật lí, Hóa học: hiện chỉ có các khái niệm mà cụm Đạo hàm trỏ tới |
+| `data/toan-12.json` | Toán: 24 khái niệm trong ba cụm Đạo hàm (gồm kiến thức nền lớp 11), Nguyên hàm – Tích phân, Xác suất có điều kiện – Bayes, kèm bốn ứng dụng trong AI |
+| `data/ly-12.json`, `data/hoa-12.json` | Vật lí (5), Hóa học (1): hiện chỉ có các khái niệm mà môn Toán trỏ tới |
 | `tools/kiem.py` | Kiểm dữ liệu: đúng schema, cạnh trỏ tới nút có thật, mỗi nút có nguồn (chỉ dùng thư viện chuẩn Python) |
 | `tests/test_kiem.py` | Test của `kiem.py` |
 

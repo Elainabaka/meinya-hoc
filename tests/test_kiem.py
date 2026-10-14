@@ -16,7 +16,7 @@ import kiem  # noqa: E402
 
 
 class DuLieuThat(unittest.TestCase):
-    """Dữ liệu đang có trong data/ phải sạch và đủ yêu cầu bước 1."""
+    """Dữ liệu đang có trong data/ phải sạch và đủ yêu cầu bước 1 (cụm Đạo hàm) và bước 2 (Tích phân, Xác suất, 14/10/2026)."""
 
     def test_sach(self):
         loi, tk = kiem.kiem(GOC / "data")
@@ -25,12 +25,20 @@ class DuLieuThat(unittest.TestCase):
 
     def test_cum_dao_ham(self):
         toan = json.loads((GOC / "data" / "toan-12.json").read_text(encoding="utf-8"))
-        self.assertTrue(12 <= len(toan["nodes"]) <= 15)
+        self.assertGreaterEqual(len(toan["nodes"]), 12)
         lien_mon = [e for e in toan["edges"] if e["loai"] == "lien-mon"]
         self.assertGreaterEqual(len(lien_mon), 3)
         mon_dich = {e["toi"].split(":")[0] for e in lien_mon}
         self.assertTrue({"ly", "hoa"} <= mon_dich)
         self.assertTrue(any(n.get("loai") == "ung-dung" for n in toan["nodes"]))
+
+    def test_cum_tich_phan_xac_suat(self):
+        toan = json.loads((GOC / "data" / "toan-12.json").read_text(encoding="utf-8"))
+        ids = {n["id"] for n in toan["nodes"]}
+        self.assertTrue({"nguyen-ham", "tich-phan", "xac-suat-co-dieu-kien", "cong-thuc-bayes"} <= ids)
+        canh = {(e["tu"], e["toi"]) for e in toan["edges"]}
+        self.assertIn(("quy-tac-dao-ham", "nguyen-ham"), canh)            # cụm mới nối vào cụm Đạo hàm
+        self.assertIn(("gradient-descent", "mo-hinh-ngon-ngu"), canh)
 
     def test_mot_cau_dinh_nghia(self):
         for p in (GOC / "data").glob("*-*.json"):

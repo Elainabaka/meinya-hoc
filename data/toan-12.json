@@ -2,8 +2,8 @@
   "mon": "toan",
   "lop": 12,
   "ten": "Toán 12",
-  "mo_ta": "Cụm Đạo hàm: kiến thức nền lớp 11 (giới hạn, đạo hàm, quy tắc tính) dẫn tới chương Ứng dụng đạo hàm của lớp 12, và hai ứng dụng trong huấn luyện AI.",
-  "cap_nhat": "2026-10-13",
+  "mo_ta": "Ba cụm: Đạo hàm (nền lớp 11 dẫn tới Ứng dụng đạo hàm lớp 12), Nguyên hàm – Tích phân, Xác suất có điều kiện – Bayes; kèm bốn ứng dụng trong AI (huấn luyện mạng nơ-ron, lọc thư rác, mô hình ngôn ngữ).",
+  "cap_nhat": "2026-10-14",
   "giay_phep": "CC BY-SA 4.0",
   "nodes": [
     {
@@ -23,8 +23,8 @@
         {"ten": "SGK Toán 11 (Kết nối tri thức), Chương V, Bài 16: Giới hạn của hàm số", "ghi_chu": "Đề mục \"1. Giới hạn hữu hạn của hàm số tại một điểm\" dưới Bài 16, Chương 5: đối chiếu loigiaihay.com và vietjack.com (mở 14/10/2026); chưa mở sách giấy."},
         {"ten": "OpenStax, Calculus Volume 1, mục 2.2: The Limit of a Function", "url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function", "doc": "2026-10-13"}
       ],
-      "x": 0.03,
-      "y": 0.22
+      "x": 0.037,
+      "y": 0.132
     },
     {
       "id": "dao-ham",
@@ -43,8 +43,8 @@
         {"ten": "SGK Toán 11 (Kết nối tri thức), Chương IX, Bài 31: Định nghĩa và ý nghĩa của đạo hàm", "ghi_chu": "Tên bài đối chiếu qua mục lục bên thứ ba (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
         {"ten": "OpenStax, Calculus Volume 1, mục 3.1: Defining the Derivative", "url": "https://openstax.org/books/calculus-volume-1/pages/3-1-defining-the-derivative", "doc": "2026-10-13"}
       ],
-      "x": 0.2,
-      "y": 0.42
+      "x": 0.132,
+      "y": 0.252
     },
     {
       "id": "tiep-tuyen",
@@ -64,8 +64,8 @@
         {"ten": "OpenStax, Calculus Volume 1, mục 3.1: Defining the Derivative (phần Tangent Lines)", "url": "https://openstax.org/books/calculus-volume-1/pages/3-1-defining-the-derivative", "doc": "2026-10-13"},
         {"ten": "MIT OpenCourseWare 18.01SC Single Variable Calculus (Unit 2: Applications of Differentiation, có phương pháp Newton)", "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/", "doc": "2026-10-13"}
       ],
-      "x": 0.15,
-      "y": 0.02
+      "x": 0.104,
+      "y": 0.012
     },
     {
       "id": "quy-tac-dao-ham",
@@ -84,8 +84,8 @@
         {"ten": "SGK Toán 11 (Kết nối tri thức), Chương IX, Bài 32: Các quy tắc tính đạo hàm", "ghi_chu": "Tên bài đối chiếu qua mục lục bên thứ ba (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
         {"ten": "OpenStax, Calculus Volume 1, mục 3.3: Differentiation Rules", "url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules", "doc": "2026-10-13"}
       ],
-      "x": 0.36,
-      "y": 0.22
+      "x": 0.222,
+      "y": 0.132
     },
     {
       "id": "dao-ham-ham-hop",
@@ -104,7 +104,7 @@
         {"ten": "SGK Toán 11 (Kết nối tri thức), Chương IX, Bài 32: Các quy tắc tính đạo hàm", "ghi_chu": "Mục \"3. Đạo hàm của hàm số hợp\" (HĐ4 trang 90, tập 2) theo vietjack.com; loigiaihay.com tóm tắt là \"2. Đạo hàm của hàm hợp\", y'x = y'u.u'x (mở 14/10/2026); chưa mở sách giấy."},
         {"ten": "OpenStax, Calculus Volume 1, mục 3.6: The Chain Rule", "url": "https://openstax.org/books/calculus-volume-1/pages/3-6-the-chain-rule", "doc": "2026-10-13"}
       ],
-      "x": 0.4,
+      "x": 0.244,
       "y": 0.0
     },
     {
@@ -124,8 +124,8 @@
         {"ten": "SGK Toán 11 (Kết nối tri thức), Chương IX, Bài 33: Đạo hàm cấp hai", "ghi_chu": "Tên bài đối chiếu qua mục lục bên thứ ba (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
         {"ten": "OpenStax, Calculus Volume 1, mục 3.2: The Derivative as a Function (phần Higher-Order Derivatives)", "url": "https://openstax.org/books/calculus-volume-1/pages/3-2-the-derivative-as-a-function", "doc": "2026-10-13"}
       ],
-      "x": 0.36,
-      "y": 0.56
+      "x": 0.222,
+      "y": 0.336
     },
     {
       "id": "toc-do-thay-doi",
@@ -144,8 +144,8 @@
         {"ten": "SGK Toán 12 (Kết nối tri thức), tập 1, Bài 5: Ứng dụng đạo hàm để giải quyết một số vấn đề liên quan đến thực tiễn", "ghi_chu": "Mục \"1. Tốc độ thay đổi của một đại lượng\" (vận tốc tức thời v = s'(t), gia tốc a = v'(t)) theo loigiaihay.com (mở 14/10/2026); chưa mở sách giấy."},
         {"ten": "OpenStax, Calculus Volume 1, mục 3.4: Derivatives as Rates of Change", "url": "https://openstax.org/books/calculus-volume-1/pages/3-4-derivatives-as-rates-of-change", "doc": "2026-10-13"}
       ],
-      "x": 0.3,
-      "y": 0.8
+      "x": 0.188,
+      "y": 0.48
     },
     {
       "id": "don-dieu",
@@ -164,8 +164,8 @@
         {"ten": "SGK Toán 12 (Kết nối tri thức), tập 1, Bài 1: Tính đơn điệu và cực trị của hàm số", "ghi_chu": "Tên bài đối chiếu qua bảng phân phối chương trình (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
         {"ten": "OpenStax, Calculus Volume 1, mục 4.5: Derivatives and the Shape of a Graph", "url": "https://openstax.org/books/calculus-volume-1/pages/4-5-derivatives-and-the-shape-of-a-graph", "doc": "2026-10-13"}
       ],
-      "x": 0.55,
-      "y": 0.32
+      "x": 0.328,
+      "y": 0.192
     },
     {
       "id": "tiem-can",
@@ -184,8 +184,8 @@
         {"ten": "SGK Toán 12 (Kết nối tri thức), tập 1, Bài 3: Đường tiệm cận của đồ thị hàm số", "ghi_chu": "Tên bài đối chiếu qua bảng phân phối chương trình (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
         {"ten": "OpenStax, Calculus Volume 1, mục 4.6: Limits at Infinity and Asymptotes", "url": "https://openstax.org/books/calculus-volume-1/pages/4-6-limits-at-infinity-and-asymptotes", "doc": "2026-10-13"}
       ],
-      "x": 0.6,
-      "y": 0.06
+      "x": 0.356,
+      "y": 0.036
     },
     {
       "id": "cuc-tri",
@@ -204,8 +204,8 @@
         {"ten": "SGK Toán 12 (Kết nối tri thức), tập 1, Bài 1: Tính đơn điệu và cực trị của hàm số", "ghi_chu": "Tên bài đối chiếu qua bảng phân phối chương trình (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
         {"ten": "OpenStax, Calculus Volume 1, mục 4.3: Maxima and Minima", "url": "https://openstax.org/books/calculus-volume-1/pages/4-3-maxima-and-minima", "doc": "2026-10-13"}
       ],
-      "x": 0.66,
-      "y": 0.5
+      "x": 0.39,
+      "y": 0.3
     },
     {
       "id": "khao-sat-do-thi",
@@ -224,8 +224,8 @@
         {"ten": "SGK Toán 12 (Kết nối tri thức), tập 1, Bài 4: Khảo sát sự biến thiên và vẽ đồ thị của hàm số", "ghi_chu": "Tên bài đối chiếu qua bảng phân phối chương trình (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
         {"ten": "OpenStax, Calculus Volume 1, mục 4.6: Limits at Infinity and Asymptotes (phần Drawing the Graph of a Function)", "url": "https://openstax.org/books/calculus-volume-1/pages/4-6-limits-at-infinity-and-asymptotes", "doc": "2026-10-13"}
       ],
-      "x": 0.82,
-      "y": 0.16
+      "x": 0.479,
+      "y": 0.096
     },
     {
       "id": "gtln-gtnn",
@@ -244,8 +244,8 @@
         {"ten": "SGK Toán 12 (Kết nối tri thức), tập 1, Bài 2: Giá trị lớn nhất và giá trị nhỏ nhất của hàm số", "ghi_chu": "Tên bài đối chiếu qua bảng phân phối chương trình (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
         {"ten": "OpenStax, Calculus Volume 1, mục 4.3: Maxima and Minima (phần Locating Absolute Extrema)", "url": "https://openstax.org/books/calculus-volume-1/pages/4-3-maxima-and-minima", "doc": "2026-10-13"}
       ],
-      "x": 0.86,
-      "y": 0.4
+      "x": 0.502,
+      "y": 0.24
     },
     {
       "id": "toi-uu",
@@ -264,8 +264,8 @@
         {"ten": "SGK Toán 12 (Kết nối tri thức), tập 1, Bài 5: Ứng dụng đạo hàm để giải quyết một số vấn đề liên quan đến thực tiễn", "ghi_chu": "Tên bài đối chiếu qua bảng phân phối chương trình (hoatieu.vn, mở 13/10/2026); chưa mở sách gốc."},
         {"ten": "OpenStax, Calculus Volume 1, mục 4.7: Applied Optimization Problems", "url": "https://openstax.org/books/calculus-volume-1/pages/4-7-applied-optimization-problems", "doc": "2026-10-13"}
       ],
-      "x": 0.97,
-      "y": 0.64
+      "x": 0.563,
+      "y": 0.384
     },
     {
       "id": "lan-truyen-nguoc",
@@ -282,8 +282,8 @@
       "nguon": [
         {"ten": "Stanford CS231n, ghi chú bài giảng về lan truyền ngược và quy tắc chuỗi (optimization-2)", "url": "https://cs231n.github.io/optimization-2/", "doc": "2026-10-13"}
       ],
-      "x": 0.58,
-      "y": 0.86
+      "x": 0.345,
+      "y": 0.516
     },
     {
       "id": "gradient-descent",
@@ -302,8 +302,184 @@
         {"ten": "Stanford CS231n, ghi chú bài giảng về tối ưu và hạ gradient (optimization-1)", "url": "https://cs231n.github.io/optimization-1/", "doc": "2026-10-13"},
         {"ten": "Kingma, D. P. và Ba, J. (2014). Adam: A Method for Stochastic Optimization. arXiv:1412.6980", "url": "https://arxiv.org/abs/1412.6980", "doc": "2026-10-13"}
       ],
+      "x": 0.468,
+      "y": 0.516
+    },
+    {
+      "id": "nguyen-ham",
+      "ten": "Nguyên hàm",
+      "chuong": "Lớp 12 · Nguyên hàm và tích phân",
+      "lop": 12,
+      "loai": "khai-niem",
+      "dinh_nghia": "F(x) là một nguyên hàm của f(x) trên một khoảng nếu F'(x) = f(x) với mọi x thuộc khoảng đó; mọi nguyên hàm của f có dạng F(x) + C và được viết ∫f(x)dx = F(x) + C.",
+      "vi_sao_2026": "Nhiều đại lượng chỉ đo được tốc độ thay đổi của nó (vận tốc, lưu lượng, công suất); nguyên hàm là phép đi ngược của đạo hàm để dựng lại chính đại lượng đó.",
+      "vi_du": "(x³)' = 3x² nên ∫3x² dx = x³ + C. Kiểm lại bằng cách lấy đạo hàm vế phải: (x³ + C)' = 3x².",
+      "cau_hoi": [
+        "Vì sao một hàm có vô số nguyên hàm, và các nguyên hàm đó khác nhau ở điểm nào?",
+        "Xe có vận tốc v(t) = 2t (m/s) và lúc t = 0 ở vị trí x = 5 m. Tìm vị trí x(t)."
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 12 (Kết nối tri thức), tập 2, Bài 11: Nguyên hàm", "ghi_chu": "Tên bài theo danh mục bài của sách trên loigiaihay.com, 2048.vn, hoatieu.vn (Chương IV: Nguyên hàm và tích phân), xem qua kết quả tìm kiếm 14/10/2026; chưa mở sách giấy."},
+        {"ten": "OpenStax, Calculus Volume 1, mục 4.10: Antiderivatives", "url": "https://openstax.org/books/calculus-volume-1/pages/4-10-antiderivatives", "doc": "2026-10-14"}
+      ],
+      "x": 0.66,
+      "y": 0.1
+    },
+    {
+      "id": "tich-phan",
+      "ten": "Tích phân",
+      "chuong": "Lớp 12 · Nguyên hàm và tích phân",
+      "lop": 12,
+      "loai": "khai-niem",
+      "dinh_nghia": "Với F là một nguyên hàm của f trên đoạn [a; b], tích phân của f từ a đến b là hiệu F(b) − F(a); khi f không âm, số này bằng diện tích phần nằm dưới đồ thị f trên đoạn đó.",
+      "vi_sao_2026": "Tích phân cộng dồn vô số phần rất nhỏ thành một tổng: quãng đường từ vận tốc, điện năng từ công suất, lượng nước qua đập từ lưu lượng. Máy tính tính gần đúng tích phân bằng cách cộng thật nhiều lát mỏng.",
+      "vi_du": "∫ từ 0 đến 2 của 3x² dx = 2³ − 0³ = 8. Xe chạy với v(t) = 2t (m/s) trong 3 giây đầu đi được ∫ từ 0 đến 3 của 2t dt = 3² − 0² = 9 m.",
+      "cau_hoi": [
+        "Vì sao chọn nguyên hàm nào (khác nhau một hằng số C) thì F(b) − F(a) vẫn ra cùng một số?",
+        "Nếu f(x) âm trên cả đoạn [a; b] thì tích phân âm hay dương, và diện tích khi đó bằng gì?"
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 12 (Kết nối tri thức), tập 2, Bài 12: Tích phân", "ghi_chu": "Tên bài theo danh mục bài của sách trên loigiaihay.com, 2048.vn, hoatieu.vn (Chương IV: Nguyên hàm và tích phân), xem qua kết quả tìm kiếm 14/10/2026; chưa mở sách giấy."},
+        {"ten": "OpenStax, Calculus Volume 1, mục 5.3: The Fundamental Theorem of Calculus", "url": "https://openstax.org/books/calculus-volume-1/pages/5-3-the-fundamental-theorem-of-calculus", "doc": "2026-10-14"}
+      ],
       "x": 0.8,
-      "y": 0.86
+      "y": 0.24
+    },
+    {
+      "id": "dien-tich-hinh-phang",
+      "ten": "Diện tích hình phẳng",
+      "chuong": "Lớp 12 · Nguyên hàm và tích phân",
+      "lop": 12,
+      "loai": "khai-niem",
+      "dinh_nghia": "Hình phẳng giới hạn bởi hai đồ thị y = f(x), y = g(x) và hai đường thẳng x = a, x = b có diện tích bằng tích phân từ a đến b của |f(x) − g(x)|.",
+      "vi_sao_2026": "Đo diện tích của hình có biên cong (mặt hồ trên bản đồ, tiết diện một chi tiết máy, vùng nằm dưới một đường số liệu) đều dùng đúng ý tưởng này: chia thành dải mỏng rồi cộng lại.",
+      "vi_du": "Hình giới hạn bởi y = x và y = x² trên [0; 1] (ở đó x ≥ x²) có diện tích ∫ từ 0 đến 1 của (x − x²) dx = 1/2 − 1/3 = 1/6.",
+      "cau_hoi": [
+        "Vì sao phải lấy trị tuyệt đối |f(x) − g(x)| khi hai đồ thị cắt nhau bên trong đoạn [a; b]?",
+        "Tính diện tích hình giới hạn bởi y = x², trục hoành và hai đường x = 0, x = 3."
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 12 (Kết nối tri thức), tập 2, Bài 13: Ứng dụng hình học của tích phân", "ghi_chu": "Tên bài theo danh mục bài của sách trên loigiaihay.com, 2048.vn, hoatieu.vn (Chương IV: Nguyên hàm và tích phân), xem qua kết quả tìm kiếm 14/10/2026; chưa mở sách giấy."},
+        {"ten": "OpenStax, Calculus Volume 1, mục 6.1: Areas between Curves", "url": "https://openstax.org/books/calculus-volume-1/pages/6-1-areas-between-curves", "doc": "2026-10-14"}
+      ],
+      "x": 0.97,
+      "y": 0.06
+    },
+    {
+      "id": "the-tich-khoi-tron-xoay",
+      "ten": "Thể tích khối tròn xoay",
+      "chuong": "Lớp 12 · Nguyên hàm và tích phân",
+      "lop": 12,
+      "loai": "khai-niem",
+      "dinh_nghia": "Quay phần nằm dưới đồ thị y = f(x) trên đoạn [a; b] quanh trục hoành được một khối tròn xoay có thể tích V = π nhân tích phân từ a đến b của [f(x)]², tức cộng dồn thể tích của các lát tròn mỏng.",
+      "vi_sao_2026": "Chai, bình, bồn chứa, chi tiết tiện đều là vật tròn xoay cần biết thể tích; ý cắt vật thành lát mỏng rồi cộng lại cũng là cách máy in 3D dựng vật từng lớp.",
+      "vi_du": "Quay đường y = √x trên [0; 4] quanh trục hoành: V = π · ∫ từ 0 đến 4 của x dx = π · 16/2 = 8π ≈ 25,1 (đơn vị thể tích).",
+      "cau_hoi": [
+        "Kiểm lại thể tích khối nón cao h, bán kính đáy r bằng cách quay đường y = (r/h)·x trên [0; h].",
+        "Vì sao trong công thức có [f(x)]² chứ không phải f(x)?"
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 12 (Kết nối tri thức), tập 2, Bài 13: Ứng dụng hình học của tích phân", "ghi_chu": "Tên bài theo danh mục bài của sách trên loigiaihay.com, 2048.vn, hoatieu.vn (Chương IV: Nguyên hàm và tích phân), xem qua kết quả tìm kiếm 14/10/2026; chưa mở sách giấy."},
+        {"ten": "OpenStax, Calculus Volume 1, mục 6.2: Determining Volumes by Slicing", "url": "https://openstax.org/books/calculus-volume-1/pages/6-2-determining-volumes-by-slicing", "doc": "2026-10-14"}
+      ],
+      "x": 0.98,
+      "y": 0.4
+    },
+    {
+      "id": "xac-suat-co-dieu-kien",
+      "ten": "Xác suất có điều kiện",
+      "chuong": "Lớp 12 · Xác suất có điều kiện",
+      "lop": 12,
+      "loai": "khai-niem",
+      "dinh_nghia": "Xác suất của biến cố A khi biết biến cố B đã xảy ra, kí hiệu P(A | B) = P(AB) / P(B) với P(B) > 0: thông tin mới thu hẹp các khả năng còn lại.",
+      "vi_sao_2026": "Phần lớn con số xác suất trong đời là xác suất có điều kiện: khả năng mưa khi trời đã nhiều mây, khả năng mắc bệnh khi xét nghiệm dương tính. Mô hình ngôn ngữ cũng chọn chữ tiếp theo theo xác suất có điều kiện của những chữ đã viết.",
+      "vi_du": "Gieo hai con xúc xắc. Biết tổng là 8 (5 khả năng: 2-6, 3-5, 4-4, 5-3, 6-2) thì xác suất có ít nhất một mặt 6 là 2/5, trong khi lúc chưa biết gì là 11/36.",
+      "cau_hoi": [
+        "P(A | B) và P(B | A) có bằng nhau không? Thử với A = \"tổng là 8\", B = \"có ít nhất một mặt 6\".",
+        "Khi nào thì P(A | B) = P(A), và điều đó nói gì về hai biến cố A, B?"
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 12 (Kết nối tri thức), tập 2, Bài 18: Xác suất có điều kiện", "ghi_chu": "Định nghĩa P(A | B) = P(AB) / P(B) với P(B) > 0 theo trang lý thuyết Bài 18 trên loigiaihay.com. Tên bài theo loigiaihay.com và hoatieu.vn (Chương VI: Xác suất có điều kiện), xem qua kết quả tìm kiếm 14/10/2026; chưa mở sách giấy."},
+        {"ten": "OpenStax, Introductory Statistics 2e, mục 3.1: Terminology", "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-1-terminology", "doc": "2026-10-14"}
+      ],
+      "x": 0.4,
+      "y": 0.8
+    },
+    {
+      "id": "xac-suat-toan-phan",
+      "ten": "Công thức xác suất toàn phần",
+      "chuong": "Lớp 12 · Xác suất có điều kiện",
+      "lop": 12,
+      "loai": "khai-niem",
+      "dinh_nghia": "Nếu B và biến cố đối B̄ chia hết mọi khả năng thì P(A) = P(B)·P(A | B) + P(B̄)·P(A | B̄): tính xác suất của A bằng cách xét lần lượt từng trường hợp rồi cộng lại.",
+      "vi_sao_2026": "Đây là cách ước lượng khi tình huống chia thành nhiều nhánh: tỉ lệ hàng lỗi của nhà máy có nhiều dây chuyền, tỉ lệ xét nghiệm dương tính trong một cộng đồng gồm cả người bệnh và người khỏe.",
+      "vi_du": "Bệnh gặp ở 1% dân số; xét nghiệm luôn dương tính với người bệnh và dương tính nhầm 5% với người khỏe. Tỉ lệ người có kết quả dương tính là 0,01·1 + 0,99·0,05 = 0,0595, gần 6%.",
+      "cau_hoi": [
+        "Vẽ sơ đồ cây cho ví dụ trên: mỗi nhánh ghi xác suất gì?",
+        "Nếu xét nghiệm chỉ dương tính nhầm 1% thì tỉ lệ dương tính chung thay đổi thế nào?"
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 12 (Kết nối tri thức), tập 2, Bài 19: Công thức xác suất toàn phần và công thức Bayes", "ghi_chu": "Công thức P(A) = P(B).P(A|B) + P(B̄).P(A|B̄) theo trang Từ điển Toán 12 trên loigiaihay.com. Tên bài theo loigiaihay.com và hoatieu.vn (Chương VI: Xác suất có điều kiện), xem qua kết quả tìm kiếm 14/10/2026; chưa mở sách giấy."},
+        {"ten": "LibreTexts, MAT 1320 Finite Mathematics 2e (Community College of Denver, CC BY 4.0), mục 8.5: Bayes' Theorem", "url": "https://math.libretexts.org/Courses/Community_College_of_Denver/MAT_1320_Finite_Mathematics_2e/08%3A_Probability/8.05%3A_Bayes'_Formula", "doc": "2026-10-14", "ghi_chu": "Ví dụ 1 (bệnh 1%, dương tính nhầm 5%): mẫu số cộng hai nhánh dương tính."}
+      ],
+      "x": 0.55,
+      "y": 0.96
+    },
+    {
+      "id": "cong-thuc-bayes",
+      "ten": "Công thức Bayes",
+      "chuong": "Lớp 12 · Xác suất có điều kiện",
+      "lop": 12,
+      "loai": "khai-niem",
+      "dinh_nghia": "Công thức đảo chiều xác suất có điều kiện: P(B | A) = P(B)·P(A | B) / P(A), với P(A) tính bằng công thức xác suất toàn phần; nó cho biết nên tin một giả thuyết tới đâu sau khi thấy bằng chứng.",
+      "vi_sao_2026": "Một xét nghiệm \"chính xác\" vẫn có thể cho phần lớn kết quả dương tính là nhầm nếu bệnh hiếm; hiểu Bayes giúp đọc đúng tin y tế, tin \"AI phát hiện\" và các cảnh báo gian lận.",
+      "vi_du": "Tiếp ví dụ xét nghiệm (bệnh 1%, dương tính nhầm 5%): P(bệnh | dương tính) = 0,01·1 / 0,0595 ≈ 0,168. Chỉ khoảng 17% người có kết quả dương tính thật sự mắc bệnh.",
+      "cau_hoi": [
+        "Vì sao bệnh càng hiếm thì trong số người dương tính, tỉ lệ dương tính nhầm càng cao?",
+        "Làm thêm một xét nghiệm độc lập và lại dương tính: xác suất mắc bệnh tăng lên khoảng bao nhiêu?"
+      ],
+      "nguon": [
+        {"ten": "SGK Toán 12 (Kết nối tri thức), tập 2, Bài 19: Công thức xác suất toàn phần và công thức Bayes", "ghi_chu": "Tên bài theo loigiaihay.com và hoatieu.vn (Chương VI: Xác suất có điều kiện), xem qua kết quả tìm kiếm 14/10/2026; chưa mở sách giấy."},
+        {"ten": "LibreTexts, MAT 1320 Finite Mathematics 2e (Community College of Denver, CC BY 4.0), mục 8.5: Bayes' Theorem", "url": "https://math.libretexts.org/Courses/Community_College_of_Denver/MAT_1320_Finite_Mathematics_2e/08%3A_Probability/8.05%3A_Bayes'_Formula", "doc": "2026-10-14", "ghi_chu": "Ví dụ 1 ra 16,8% người dương tính thật sự mắc bệnh."}
+      ],
+      "x": 0.72,
+      "y": 0.82
+    },
+    {
+      "id": "loc-thu-rac-bayes",
+      "ten": "Lọc thư rác bằng Bayes",
+      "chuong": "Ứng dụng 2026 · AI và xác suất",
+      "loai": "ung-dung",
+      "dinh_nghia": "Bộ lọc tính xác suất một thư là thư rác khi biết các từ trong thư, bằng cách kết hợp theo công thức Bayes xác suất \"thuộc thư rác\" của từng từ đã đếm được từ thư cũ.",
+      "vi_sao_2026": "Đây là ví dụ học máy dễ hiểu nhất: máy không \"hiểu\" thư, chỉ đếm từ trong thư cũ rồi cập nhật xác suất. Paul Graham (2002) kể bộ lọc kiểu này bỏ sót chưa tới 5 trên 1.000 thư rác trong hộp thư của ông, không chặn nhầm thư nào.",
+      "vi_du": "Giả sử 50% thư là rác; từ \"trúng thưởng\" có trong 20% thư rác và 1% thư thường. Thư có từ này là rác với xác suất 0,5·0,2 / (0,5·0,2 + 0,5·0,01) = 0,1 / 0,105 ≈ 0,95.",
+      "cau_hoi": [
+        "Vì sao bộ lọc phải học lại khi kẻ gửi rác đổi cách viết (ví dụ \"tr.ú.n.g th.ưở.ng\")?",
+        "Chặn nhầm thư thật và bỏ sót thư rác: lỗi nào tệ hơn, và nên đặt ngưỡng xác suất thế nào?"
+      ],
+      "nguon": [
+        {"ten": "Paul Graham, \"A Plan for Spam\" (tháng 8/2002)", "url": "https://paulgraham.com/spam.html", "doc": "2026-10-14"}
+      ],
+      "x": 0.92,
+      "y": 0.94
+    },
+    {
+      "id": "mo-hinh-ngon-ngu",
+      "ten": "Mô hình ngôn ngữ đoán chữ tiếp theo",
+      "chuong": "Ứng dụng 2026 · AI và xác suất",
+      "loai": "ung-dung",
+      "dinh_nghia": "Mô hình ngôn ngữ ước lượng xác suất có điều kiện của chữ (token) tiếp theo khi biết các chữ đứng trước; viết một câu trả lời là chọn lần lượt từng chữ theo các xác suất đó.",
+      "vi_sao_2026": "Các trợ lý AI năm 2026 đều xây trên mô hình ngôn ngữ lớn. Biết chúng chọn chữ theo xác suất giải thích vì sao cùng một câu hỏi có thể ra câu trả lời khác nhau, và vì sao chúng có thể viết trôi chảy một điều sai.",
+      "vi_du": "Google lấy ví dụ câu \"When I hear rain on my roof, I _____ in my kitchen\": mô hình có thể gán 9,4% cho \"cook soup\", 5,2% cho \"warm up a kettle\", 3,6% cho \"cower\"… rồi chọn một phương án theo các xác suất đó.",
+      "cau_hoi": [
+        "Nếu lúc nào mô hình cũng chọn chữ có xác suất cao nhất thì câu trả lời sẽ ra sao?",
+        "Mô hình học các xác suất này từ đâu, và vì sao dữ liệu học bị lệch thì câu trả lời cũng lệch?"
+      ],
+      "nguon": [
+        {"ten": "Google, Machine Learning Crash Course: Introduction to Large Language Models", "url": "https://developers.google.com/machine-learning/crash-course/llm", "doc": "2026-10-14"}
+      ],
+      "x": 0.6,
+      "y": 0.66
     }
   ],
   "edges": [
@@ -328,6 +504,18 @@
     {"tu": "dao-ham", "toi": "ly:van-toc-tuc-thoi", "loai": "lien-mon", "giai_thich": "Vận tốc tức thời là đạo hàm của tọa độ theo thời gian: v(t) = x'(t)."},
     {"tu": "dao-ham-cap-hai", "toi": "ly:gia-toc-tuc-thoi", "loai": "lien-mon", "giai_thich": "Gia tốc là đạo hàm của vận tốc, tức đạo hàm cấp hai của tọa độ: a(t) = v'(t) = x''(t)."},
     {"tu": "toc-do-thay-doi", "toi": "hoa:toc-do-phan-ung-tuc-thoi", "loai": "lien-mon", "giai_thich": "Tốc độ phản ứng tức thời là tốc độ thay đổi nồng độ theo thời gian, đọc bằng hệ số góc tiếp tuyến của đồ thị nồng độ – thời gian."},
-    {"tu": "toc-do-thay-doi", "toi": "ly:suat-dien-dong-cam-ung", "loai": "lien-mon", "giai_thich": "Suất điện động cảm ứng bằng trừ tốc độ biến thiên của từ thông: e = −Φ'(t)."}
+    {"tu": "toc-do-thay-doi", "toi": "ly:suat-dien-dong-cam-ung", "loai": "lien-mon", "giai_thich": "Suất điện động cảm ứng bằng trừ tốc độ biến thiên của từ thông: e = −Φ'(t)."},
+    {"tu": "quy-tac-dao-ham", "toi": "nguyen-ham", "loai": "can-truoc", "giai_thich": "Bảng nguyên hàm là bảng đạo hàm đọc ngược: (x³)' = 3x² nên ∫3x² dx = x³ + C."},
+    {"tu": "nguyen-ham", "toi": "tich-phan", "loai": "dan-toi"},
+    {"tu": "tich-phan", "toi": "dien-tich-hinh-phang", "loai": "dan-toi"},
+    {"tu": "tich-phan", "toi": "the-tich-khoi-tron-xoay", "loai": "dan-toi"},
+    {"tu": "tich-phan", "toi": "ly:do-dich-chuyen", "loai": "lien-mon", "giai_thich": "Độ dịch chuyển là tích phân của vận tốc theo thời gian, bằng diện tích có dấu dưới đồ thị v – t."},
+    {"tu": "dao-ham-ham-hop", "toi": "ly:dinh-luat-phong-xa", "loai": "lien-mon", "giai_thich": "Theo quy tắc chuỗi (e^(−λt))' = −λ·e^(−λt), nên N(t) = N₀·e^(−λt) cho dN/dt = −λN: tốc độ phân rã tỉ lệ với số hạt còn lại."},
+    {"tu": "xac-suat-co-dieu-kien", "toi": "xac-suat-toan-phan", "loai": "dan-toi"},
+    {"tu": "xac-suat-co-dieu-kien", "toi": "cong-thuc-bayes", "loai": "dan-toi"},
+    {"tu": "xac-suat-toan-phan", "toi": "cong-thuc-bayes", "loai": "can-truoc", "giai_thich": "Mẫu số P(A) của công thức Bayes tính bằng công thức xác suất toàn phần."},
+    {"tu": "cong-thuc-bayes", "toi": "loc-thu-rac-bayes", "loai": "dan-toi", "giai_thich": "Bộ lọc dùng công thức Bayes để tính P(rác | các từ trong thư) từ P(từ | rác) đã đếm được."},
+    {"tu": "xac-suat-co-dieu-kien", "toi": "mo-hinh-ngon-ngu", "loai": "dan-toi", "giai_thich": "Mô hình ngôn ngữ học P(chữ tiếp theo | các chữ đứng trước): đúng định nghĩa xác suất có điều kiện."},
+    {"tu": "gradient-descent", "toi": "mo-hinh-ngon-ngu", "loai": "dan-toi", "giai_thich": "Các xác suất của mô hình ngôn ngữ lớn được học bằng hạ gradient trên rất nhiều văn bản."}
   ]
 }

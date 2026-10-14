@@ -2,8 +2,8 @@
   "mon": "ly",
   "lop": 12,
   "ten": "Vật lí 12",
-  "mo_ta": "Bước 1 chỉ có các khái niệm mà cụm Đạo hàm của môn Toán trỏ tới, gồm cả kiến thức nền lớp 10 (xem trường lop của từng nút).",
-  "cap_nhat": "2026-10-13",
+  "mo_ta": "Hiện có các khái niệm mà môn Toán trỏ tới (đạo hàm, tích phân), gồm cả kiến thức nền lớp 10 (xem trường lop của từng nút).",
+  "cap_nhat": "2026-10-14",
   "giay_phep": "CC BY-SA 4.0",
   "nodes": [
     {
@@ -23,8 +23,8 @@
         {"ten": "SGK Vật lí 10 (Kết nối tri thức), Bài 5: Tốc độ và vận tốc", "ghi_chu": "Mục \"2. Tốc độ tức thời\" và \"2. Vận tốc tức thời\" (\"tốc độ tại một thời điểm xác định\") theo vietjack.com, lý thuyết và giáo án (mở 14/10/2026); chưa mở sách giấy."},
         {"ten": "OpenStax, University Physics Volume 1, mục 3.2: Instantaneous Velocity and Speed", "url": "https://openstax.org/books/university-physics-volume-1/pages/3-2-instantaneous-velocity-and-speed", "doc": "2026-10-13"}
       ],
-      "x": 0.06,
-      "y": 0.68
+      "x": 0.054,
+      "y": 0.408
     },
     {
       "id": "gia-toc-tuc-thoi",
@@ -43,8 +43,8 @@
         {"ten": "SGK Vật lí 10 (Kết nối tri thức), Bài 8: Chuyển động biến đổi. Gia tốc", "ghi_chu": "Tên bài đối chiếu qua trang tóm tắt bên thứ ba (vietjack.com, mở 13/10/2026). SGK lớp 10 định nghĩa gia tốc qua Δv/Δt; dạng đạo hàm là phần nối sang Toán 11."},
         {"ten": "OpenStax, University Physics Volume 1, mục 3.3: Average and Instantaneous Acceleration", "url": "https://openstax.org/books/university-physics-volume-1/pages/3-3-average-and-instantaneous-acceleration", "doc": "2026-10-13"}
       ],
-      "x": 0.15,
-      "y": 0.97
+      "x": 0.104,
+      "y": 0.582
     },
     {
       "id": "suat-dien-dong-cam-ung",
@@ -63,8 +63,48 @@
         {"ten": "SGK Vật lí 12 (Kết nối tri thức), Bài 16: Từ thông. Hiện tượng cảm ứng điện từ", "ghi_chu": "Tên bài và công thức e = −ΔΦ/Δt đối chiếu qua trang tóm tắt bên thứ ba (loigiaihay.com, mở 13/10/2026); chưa mở sách gốc."},
         {"ten": "OpenStax, University Physics Volume 2, mục 13.1: Faraday's Law", "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law", "doc": "2026-10-13"}
       ],
-      "x": 0.0,
-      "y": 0.99
+      "x": 0.02,
+      "y": 0.594
+    },
+    {
+      "id": "do-dich-chuyen",
+      "ten": "Độ dịch chuyển từ đồ thị vận tốc",
+      "chuong": "Lớp 10 · Động học",
+      "lop": 10,
+      "loai": "khai-niem",
+      "dinh_nghia": "Trong chuyển động thẳng, độ dịch chuyển trong một khoảng thời gian bằng diện tích (có dấu) giới hạn bởi đồ thị vận tốc – thời gian, tức tích phân của vận tốc theo thời gian.",
+      "vi_sao_2026": "Nhiều thiết bị chỉ đo được vận tốc hay gia tốc theo thời gian; muốn biết đã đi bao xa thì phải cộng dồn, đúng như tích phân. Lớp 10 đếm diện tích trên đồ thị, lớp 12 tính bằng tích phân.",
+      "vi_du": "Xe tăng tốc đều từ 4 m/s lên 16 m/s trong 6 s: diện tích hình thang dưới đồ thị v – t là (4 + 16)/2 · 6 = 60 m. Với v(t) = 4 + 2t, tích phân từ 0 đến 6 cũng ra 4·6 + 6² = 60 m.",
+      "cau_hoi": [
+        "Nếu vận tốc đổi dấu (xe quay đầu), phần diện tích nằm dưới trục hoành mang ý nghĩa gì?",
+        "Quãng đường đi được và độ dịch chuyển khác nhau khi nào?"
+      ],
+      "nguon": [
+        {"ten": "SGK Vật lí 10 (Kết nối tri thức), Bài 9: Chuyển động thẳng biến đổi đều", "ghi_chu": "\"Độ dịch chuyển … có độ lớn bằng diện tích giới hạn đồ thị (v – t)\" theo lời giải mục IV trang 42, 43 trên loigiaihay.com và vietjack.com, xem qua kết quả tìm kiếm 14/10/2026; chưa mở sách giấy."},
+        {"ten": "OpenStax, University Physics Volume 1, mục 3.6: Finding Velocity and Displacement from Acceleration", "url": "https://openstax.org/books/university-physics-volume-1/pages/3-6-finding-velocity-and-displacement-from-acceleration", "doc": "2026-10-14"}
+      ],
+      "x": 0.7,
+      "y": 0.46
+    },
+    {
+      "id": "dinh-luat-phong-xa",
+      "ten": "Định luật phóng xạ",
+      "chuong": "Lớp 12 · Vật lí hạt nhân",
+      "lop": 12,
+      "loai": "khai-niem",
+      "dinh_nghia": "Số hạt nhân phóng xạ còn lại giảm theo hàm mũ N(t) = N₀·e^(−λt), vì tốc độ phân rã tỉ lệ với số hạt còn lại (dN/dt = −λN); sau mỗi chu kì bán rã T = ln2/λ ≈ 0,693/λ, số hạt còn một nửa.",
+      "vi_sao_2026": "Định tuổi cổ vật bằng carbon-14 và tính liều thuốc phóng xạ trong y học đều dựa vào định luật này; nó cũng là ví dụ rõ nhất của kiểu \"tốc độ thay đổi tỉ lệ với chính đại lượng\".",
+      "vi_du": "Iodine-131 có chu kì bán rã khoảng 8 ngày: sau 24 ngày (3 chu kì) lượng còn lại bằng 1/2³ = 1/8 lượng ban đầu.",
+      "cau_hoi": [
+        "Lấy đạo hàm N(t) = N₀·e^(−λt) để kiểm lại dN/dt = −λN.",
+        "Sau 10 chu kì bán rã còn lại khoảng bao nhiêu phần nghìn lượng ban đầu?"
+      ],
+      "nguon": [
+        {"ten": "SGK Vật lí 12 (Kết nối tri thức), Bài 23: Hiện tượng phóng xạ", "ghi_chu": "Mục \"Định luật phóng xạ\" theo trang lý thuyết và lời giải trang 104–106 trên loigiaihay.com, xem qua kết quả tìm kiếm 14/10/2026; chưa mở sách giấy."},
+        {"ten": "OpenStax, University Physics Volume 3, mục 10.3: Radioactive Decay", "url": "https://openstax.org/books/university-physics-volume-3/pages/10-3-radioactive-decay", "doc": "2026-10-14"}
+      ],
+      "x": 0.2,
+      "y": 0.84
     }
   ],
   "edges": [
